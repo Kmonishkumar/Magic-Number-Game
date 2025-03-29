@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #00FFFF;   
+}
+.navbar {
+    background-color: #002244; 
+    color: white;
+    padding: 15px;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content:center;
+
+}
+
+
+ol {
+    list-style-position: inside;  
+    padding-left: 0;  
+    margin: 0;  
+    text-align: left; 
+    display: inline-block;  
+}
+
+.container {
+    background: white;
+    width: 50%;
+    margin: 60px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.start-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.instructions {
+    background: #fff3cd;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.GameBar{
+    margin: 60px auto;
+
+}
+
+
+.back {
+    display: inline-block;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
